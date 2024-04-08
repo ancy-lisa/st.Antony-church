@@ -1,0 +1,189 @@
+
+
+[
+  [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "familyId": 1,
+      "relationship":"father",
+      "dateOfBirth":"1997-04-21"
+    },
+    {
+        "id": 2,
+        "name": "Maria",
+        "familyId": 1,
+        "relationship":"Mother",
+        "dateOfBirth":"1997-06-11"
+      },
+      {
+        "id": 3,
+        "name": "Green",
+        "familyId": 1,
+        "relationship":"Son",
+        "dateOfBirth":"2004-08-30"
+      },
+      {
+        "id": 4,
+        "name": "Mathew",
+        "familyId": 1,
+        "relationship":"Daughter",
+        "dateOfBirth":"2006-11-25"
+      },
+      {
+        "id": 5,
+        "name": "Raan",
+        "familyId": 1,
+        "relationship":"Son",
+        "dateOfBirth":"2010-07-07"
+      }
+    ],
+    [
+      {
+          "id": 6,
+          "name": "Michael Smith",
+          "familyId": 2,
+          "relationship": "father",
+          "dateOfBirth": "1980-03-15"
+      },
+      {
+          "id": 7,
+          "name": "Emily Smith",
+          "familyId": 2,
+          "relationship": "Mother",
+          "dateOfBirth": "1982-07-20"
+      },
+      {
+          "id": 8,
+          "name": "Lucas Smith",
+          "familyId": 2,
+          "relationship": "Son",
+          "dateOfBirth": "2005-12-10"
+      },
+      {
+          "id": 9,
+          "name": "Sophia Smith",
+          "familyId": 2,
+          "relationship": "Daughter",
+          "dateOfBirth": "2008-09-05"
+      },
+      {
+          "id": 10,
+          "name": "Aiden Smith",
+          "familyId": 2,
+          "relationship": "Son",
+          "dateOfBirth": "2012-04-30"
+      }
+  ],
+  [
+    {
+        "id": 11,
+        "name": "David Johnson",
+        "familyId": 3,
+        "relationship": "father",
+        "dateOfBirth": "1975-10-18"
+    },
+    {
+        "id": 12,
+        "name": "Jennifer Johnson",
+        "familyId": 3,
+        "relationship": "Mother",
+        "dateOfBirth": "1979-12-03"
+    },
+    {
+        "id": 13,
+        "name": "Emma Johnson",
+        "familyId": 3,
+        "relationship": "Daughter",
+        "dateOfBirth": "2003-05-22"
+    },
+    {
+        "id": 14,
+        "name": "Noah Johnson",
+        "familyId": 3,
+        "relationship": "Son",
+        "dateOfBirth": "2007-08-14"
+    },
+    {
+        "id": 15,
+        "name": "Olivia Johnson",
+        "familyId": 3,
+        "relationship": "Daughter",
+        "dateOfBirth": "2011-11-09"
+    }
+],
+[
+  {
+      "id": 16,
+      "name": "William Brown",
+      "familyId": 4,
+      "relationship": "father",
+      "dateOfBirth": "1988-01-25"
+  },
+  {
+      "id": 17,
+      "name": "Jessica Brown",
+      "familyId": 4,
+      "relationship": "Mother",
+      "dateOfBirth": "1990-04-12"
+  },
+  {
+      "id": 18,
+      "name": "Daniel Brown",
+      "familyId": 4,
+      "relationship": "Son",
+      "dateOfBirth": "2012-09-30"
+  },
+  {
+      "id": 19,
+      "name": "Sophie Brown",
+      "familyId": 4,
+      "relationship": "Daughter",
+      "dateOfBirth": "2015-06-18"
+  },
+  {
+      "id": 20,
+      "name": "Ethan Brown",
+      "familyId": 4,
+      "relationship": "Son",
+      "dateOfBirth": "2018-03-05"
+  }
+],
+[
+  {
+      "id": 21,
+      "name": "Christopher Wilson",
+      "familyId": 5,
+      "relationship": "father",
+      "dateOfBirth": "1973-08-07"
+  },
+  {
+      "id": 22,
+      "name": "Lily Wilson",
+      "familyId": 5,
+      "relationship": "Mother",
+      "dateOfBirth": "1977-11-24"
+  },
+  {
+      "id": 23,
+      "name": "Ryan Wilson",
+      "familyId": 5,
+      "relationship": "Son",
+      "dateOfBirth": "2002-02-19"
+  },
+  {
+      "id": 24,
+      "name": "Chloe Wilson",
+      "familyId": 5,
+      "relationship": "Daughter",
+      "dateOfBirth": "2006-05-06"
+  },
+  {
+      "id": 25,
+      "name": "Ella Wilson",
+      "familyId": 5,
+      "relationship": "Daughter",
+      "dateOfBirth": "2010-09-11"
+  }
+]
+]

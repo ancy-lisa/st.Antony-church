@@ -1,0 +1,15 @@
+  /* Hide carousel control button text */
+  .carousel-control-prev,
+  .carousel-control-next {
+      width: 5%;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+      display: none;
+  }
+
+  .carousel-control-prev:hover,
+  .carousel-control-next:hover {
+      background-color: transparent;
+  }

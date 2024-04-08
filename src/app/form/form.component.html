@@ -1,0 +1,33 @@
+<div class="card m-5 form-card">
+    <div class="card-content m-5" *ngIf="!showfamilyData">
+        <h1 class="text-center">Enter your family card number:</h1>
+        <input type="text" class="form-control w-50 mx-auto"  placeholder="Enter your number" style="text-align: center" oninput="this.value = this.value.replace(/[^0-9]/g, '')" [(ngModel)]="familyId">
+        <button  type="button" class="btn btn-outline-primary m-5 text-center d-grid gap-2 mx-auto" (click)="familyIdSearch()" (ngModelChange)="familyIdSearch()">
+            <span>{{message}}</span>Submit</button> 
+    </div>
+
+<div>
+    
+<div *ngIf="showfamilyData">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col-3" class="text-center">Name</th>
+                <th scope="col-3" class="text-center">Relationship</th>
+                <th scope="col-3" class="text-center">Date Of Birth</th>
+                <th scope="col-3" class="text-center">Download Certificate</th>
+            </tr>          
+        </thead>
+        <tbody>
+            <tr *ngFor="let familyData of familyInformationById">
+            <td class="text-center">{{familyData.name}}</td>
+            <td class="text-center">{{familyData.relationship}}</td>
+            <td class="text-center">{{familyData.dateOfBirth}}</td>
+            <td><button type="button" class="btn w-100 rounded-0 m-0 certificateBtn" (click)="openDialog(familyData.name)">Click</button></td>
+            </tr>           
+        </tbody>
+    </table>
+</div>
+
+
+

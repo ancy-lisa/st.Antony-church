@@ -1,0 +1,170 @@
+<div id ="section">
+  <div class="certificate-container" *ngIf="certificateType === 'baptism'">
+    <div class="certificate m-0">
+        <div class="certificate-body border border-dark">
+           
+            <h1 class="certificate-title text-center"><strong>BAPTISM CERTIFICATE</strong></h1>
+            <table>
+                <tr class="text-start ms-2">
+                    <td><p>Name</p></td>
+                    <td><p>:</p></td>
+                    <!-- <td>{{ familyName }} </td> -->
+                </tr>
+                <tr class="text-start">
+                    <td><p>Sex</p></td>
+                    <td><p>:</p></td>
+                    <td> </td>
+                </tr>
+                <tr class="text-start">
+                    <td><p>Date of Birth
+                        <td><p>:</p></td>
+                    </p></td>
+                    <td> </td>
+                </tr>
+                <tr class="text-start">
+                    <td><p>Place of Birth</p></td>
+                    <td><p>:</p></td>
+                    <td> </td>
+                </tr>
+                <tr class="text-start">
+                    <td><p>Name of Father</p></td>
+                    <td><p>:</p></td>
+                    <td> </td>
+                </tr>
+                <tr class="text-start">
+                    <td><p>Name of Mother</p></td>
+                    <td><p>:</p></td>
+                    <td> </td>
+                </tr>
+                <tr class="text-start">
+                    <td><p>Address</p></td>
+                    <td><p>:</p></td>
+                    <td> </td>
+                </tr>
+                <tr class="text-start" >
+                    <td><p>Name</p></td>
+                    <td><p>:</p></td>
+                    <td> </td>
+                </tr>
+                <tr class="text-start">
+                    <td><p>Name</p></td>
+                    <td><p>:</p></td>
+                    <td> </td>
+                </tr>
+               
+            </table>           
+        </div>
+    </div>
+</div>
+
+
+
+<div class="certificate-container" *ngIf="certificateType === 'marriage'">
+  <div class="certificate m-0">
+      <div class="water-mark-overlay"></div>
+      <div class="certificate-header">
+          <img src="https://rnmastersreview.com/img/logo.png" class="logo" alt="">
+      </div>
+      <div class="certificate-body">
+         
+          <p class="certificate-title"><strong>MARRIAGE CERTIFICATE</strong></p>
+          <h1>Certificate of Completion</h1>
+          <p class="student-name">Matthew Taylor</p>
+          <div class="certificate-content">
+              <div class="about-certificate">
+                  <p>
+              has completed [hours] hours on topic title here online on Date [Date of Completion]
+              </p>
+              </div>
+              <p class="topic-title">
+                  The Topic consists of [hours] Continuity hours and includes the following:
+              </p>
+              <div class="text-center">
+                  <p class="topic-description text-muted">Contract adminitrator - Types of claim - Claim Strategy - Delay analysis - Thepreliminaries to a claim - The essential elements to a successful claim - Responses - Claim preparation and presentation </p>
+              </div>
+          </div>
+          <div class="certificate-footer text-muted">
+              <div class="row">
+                  <div class="col-md-6">
+                      <p>Principal: ______________________</p>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="row">
+                          <div class="col-md-6">
+                              <p>
+                                  Accredited by
+                              </p>
+                          </div>
+                          <div class="col-md-6">
+                              <p>
+                                  Endorsed by
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+
+
+<div class="certificate-container" *ngIf="certificateType === 'death'">
+  <div class="certificate m-0">
+      <div class="water-mark-overlay"></div>
+      <div class="certificate-header">
+          <img src="https://rnmastersreview.com/img/logo.png" class="logo" alt="">
+      </div>
+      <div class="certificate-body">
+         
+          <p class="certificate-title"><strong>Death certificate</strong></p>
+          <h1>Certificate of Completion</h1>
+          <p class="student-name">Matthew Taylor</p>
+          <div class="certificate-content">
+              <div class="about-certificate">
+                  <p>
+              has completed [hours] hours on topic title here online on Date [Date of Completion]
+              </p>
+              </div>
+              <p class="topic-title">
+                  The Topic consists of [hours] Continuity hours and includes the following:
+              </p>
+              <div class="text-center">
+                  <p class="topic-description text-muted">Contract adminitrator - Types of claim - Claim Strategy - Delay analysis - Thepreliminaries to a claim - The essential elements to a successful claim - Responses - Claim preparation and presentation </p>
+              </div>
+          </div>
+          <div class="certificate-footer text-muted">
+              <div class="row">
+                  <div class="col-md-6">
+                      <p>Principal: ______________________</p>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="row">
+                          <div class="col-md-6">
+                              <p>
+                                  Accredited by
+                              </p>
+                          </div>
+                          <div class="col-md-6">
+                              <p>
+                                  Endorsed by
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+
+</div>
+<div class="text-center">
+  <button printSectionId="section" ngxPrint type="button" class="btn btn-outline-success"> print</button>
+</div>
