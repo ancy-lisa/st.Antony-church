@@ -26,7 +26,9 @@ import { PopupComponent } from './popup/popup.component';
 import {NgxPrintModule} from 'ngx-print';
 
 
+
 import { CertificatesComponent } from './certificates/certificates.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 
@@ -71,7 +73,8 @@ const route :Routes =[
 
 
     ,MatDialogModule,
-    NgxPrintModule
+    NgxPrintModule,
+    NgbModule
 
   ],
 
